@@ -10,7 +10,7 @@ const replaceVal=(tempVal,orgVal)=>{
     temperature = temperature.replace("{%tempmax%}",orgVal.main.temp_max);
     temperature = temperature.replace("{%location%}",orgVal.name);
     temperature =temperature.replace("{%country%}",orgVal.sys.country);
-    // temperature =temperature.replace("{%tempstatus%}",orgVal.weather[0].main);
+    temperature =temperature.replace("{%tempstatus%}",orgVal.weather[0].main);
 
 
 
